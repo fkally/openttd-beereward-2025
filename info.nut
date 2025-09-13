@@ -25,15 +25,15 @@ PROGRAM_DATE <- Syntax error, set by 'make bundle'.
 PROGRAM_NAME <- Syntax error, set by 'make bundle'.
 
 class BeeRewardInfo extends GSInfo {
-    function GetAuthor()        { return "alberth, andythenorth, jottyfan"; }
-    function GetName()          { return "Bee Reward"; } // Old: return PROGRAM_NAME;
+    function GetAuthor()        { return "alberth, andythenorth, jottyfan, fkally (only 2025 fix and reupload)"; }
+    function GetName()          { return "Bee Reward 2025"; } // Old: return PROGRAM_NAME;
     function GetDescription()   { return "Make connection, transport cargo, receive reward"; }
     function GetVersion()       { return PROGRAM_VERSION + SAVEGAME_VERSION * 100000; }
     function GetDate()          { return PROGRAM_DATE; }
     function CreateInstance()   { return "BeeRewardClass"; }
-    function GetShortName()     { return "BREW"; }
+    function GetShortName()     { return "BREF"; }
     function GetAPIVersion()    { return "12"; }
-    function GetUrl()           { return "https://gitlab.com/jottyfan/bee-reward/"; }
+    function GetUrl()           { return "https://github.com/fkally/openttd-beereward-2025/"; }
     function MinVersionToLoad() { return MINCOMPATIBLE_SAVEGAME_VERSION; }
     function GetSettings();
 }
