@@ -32,7 +32,7 @@ class BeeRewardInfo extends GSInfo {
     function GetDate()          { return PROGRAM_DATE; }
     function CreateInstance()   { return "BeeRewardClass"; }
     function GetShortName()     { return "BREW"; }
-    function GetAPIVersion()    { return "1.5"; }
+    function GetAPIVersion()    { return "12"; }
     function GetUrl()           { return "https://gitlab.com/jottyfan/bee-reward/"; }
     function MinVersionToLoad() { return MINCOMPATIBLE_SAVEGAME_VERSION; }
     function GetSettings();
